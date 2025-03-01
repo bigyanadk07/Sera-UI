@@ -129,10 +129,10 @@ Here are some examples of components available in our library:
 ![Form Components](./src/images/calendar.png)
 
 ### Carousel
-![Navigation Components](./src/images/carousel.png)
+![Navigation Components](./src/images/Carousel.png)
 
 ### Separator
-![Layout Components](./src/images/separator.png)
+![Layout Components](./src/images/Separator.png)
 
 ## 📖 Documentation
 
