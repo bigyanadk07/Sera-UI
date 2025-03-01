@@ -2,7 +2,7 @@
 
 A modern, extensible React component library built with reusability and developer experience in mind.
 
-![Component Library Banner](https://via.placeholder.com/1200x300)
+![Component Library Banner](./src/images/banner.png)
 
 ## 📚 Overview
 
