@@ -68,3 +68,36 @@
     padding: 0;
   }
 }
+
+/* Apply pointer cursor to the body */
+body {
+  cursor: url('src/assets/pointer.cur') 16 16, auto;
+}
+
+/* Apply link cursor to all elements except body */
+a {
+  cursor: url('src/assets/link.cur') 16 16, auto;
+}
+
+hover {
+  cursor: url('src/assets/link.cur') 16 16, auto;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+

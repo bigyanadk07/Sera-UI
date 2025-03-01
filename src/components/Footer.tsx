@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Github, Twitter } from 'lucide-react';
 import { useEffect } from 'react';
+import Logo from "@/images/Seralogo1.png"
 
 export default function Footer() {
   useEffect(() => {
@@ -9,6 +10,18 @@ export default function Footer() {
   return (
     <footer className="border-t bg-background">
       <div className="container mx-auto py-8 md:py-12">
+        {/* Logo Section at the top */}
+        <div className="flex justify-center mb-8">
+          <Link to="" className="flex items-center">
+            
+            <img 
+              src={Logo} 
+              alt="SeraUI Logo" 
+              className="h-20" 
+            />
+          </Link>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
@@ -68,7 +81,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} UI Library. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} SeraUI Library. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -8,7 +8,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { useEffect, useState } from 'react';
-import Logo from "../images/Seralogo.png"
+import Logo from "../images/Seralogo1.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 flex h-16 items-center">
         <Link to="/" className="flex items-center space-x-2 mr-6">
           <img src={Logo} className='w-16 h-auto' />
-          <span className="font-bold">Sera UI</span>
+          {/* <span className="font-bold">Sera UI</span> */}
         </Link>
 
         {/* Desktop Navigation */}
