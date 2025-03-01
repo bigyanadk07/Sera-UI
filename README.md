@@ -125,14 +125,14 @@ export const categories: ComponentCategory[] = [
 
 Here are some examples of components available in our library:
 
-### Forms
-![Form Components](https://via.placeholder.com/800x200)
+### Calendar
+![Form Components](./src/images/calendar.png)
 
-### Navigation
-![Navigation Components](https://via.placeholder.com/800x200)
+### Carousel
+![Navigation Components](./src/images/Carousel.png)
 
-### Layout
-![Layout Components](https://via.placeholder.com/800x200)
+### Separator
+![Layout Components](./src/images/Separator.png)
 
 ## 📖 Documentation
 
@@ -141,7 +141,7 @@ For full documentation, visit our [documentation site](https://your-component-li
 ### Example: Breadcrumb Component
 
 ```tsx
-import { Breadcrumb } from "@your-org/ui-library/navigation";
+import { Breadcrumb } from "@/ui/navigation";
 
 function Page() {
   return (
