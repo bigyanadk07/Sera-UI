@@ -156,9 +156,7 @@ function Page() {
 
 Result:
 
-```
-Home / Category / Current Page
-```
+![BreadCrumb](./src/images/breadcrumb-example.png)
 
 ## 🧪 Testing
 
