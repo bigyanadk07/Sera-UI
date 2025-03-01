@@ -1,8 +1,8 @@
-# 🎨 UI Component Library
+# 🎨 Sera UI Component Library
 
 A modern, extensible React component library built with reusability and developer experience in mind.
 
-![Component Library Banner](https://via.placeholder.com/1200x300)
+![Component Library Banner](./src/images/banner.png)
 
 ## 📚 Overview
 
@@ -13,15 +13,15 @@ This library provides a collection of customizable UI components organized by ca
 ### Installation
 
 ```bash
-npm install @your-org/ui-library
+npm install @sera-ui
 # or
-yarn add @your-org/ui-library
+yarn add @sera-ui
 ```
 
 ### Basic Usage
 
 ```jsx
-import { Button } from "@your-org/ui-library/forms";
+import { Button } from "@sera-ui";
 
 function App() {
   return (
@@ -156,9 +156,7 @@ function Page() {
 
 Result:
 
-```
-Home / Category / Current Page
-```
+![BreadCrumb](./src/images/breadcrumb-example.png)
 
 ## 🧪 Testing
 
